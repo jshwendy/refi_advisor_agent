@@ -7,7 +7,7 @@ A Streamlit app powered by a LangGraph multi-agent pipeline that analyzes whethe
 ### 1. Install dependencies
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 ### 2. Configure API keys
