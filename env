@@ -1,0 +1,21 @@
+# ── API Keys ──────────────────────────────────────────────
+# FRED (free): https://fred.stlouisfed.org/docs/api/api_key.html
+FRED_API_KEY=ff0983f26b05c884e131417bec50bf16
+
+# Tavily (free tier 1000 calls/mo): https://app.tavily.com
+TAVILY_API_KEY=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
+
+# Anthropic: https://console.anthropic.com
+ANTHROPIC_API_KEY=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
+
+# ── LLM Configuration ────────────────────────────────────
+ANTHROPIC_MODEL=claude-haiku-4-5-20251001
+ANTHROPIC_MAX_TOKENS=1024
+ANTHROPIC_BASE_URL=https://api.anthropic.com
+ANTHROPIC_MESSAGES_EP=/v1/messages
+ANTHROPIC_VERSION=2023-06-01
+
+# ── FRED Series Used ──────────────────────────────────────
+# MORTGAGE30US  → 30-yr fixed rate (weekly, Freddie Mac survey)
+# DFF           → Effective Federal Funds Rate (daily)
+# SOFR          → Secured Overnight Financing Rate (daily)
