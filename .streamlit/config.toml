@@ -1,5 +1,6 @@
 [theme]
 base="light"
-backgroundColor="white"
-secondaryBackgroundColor="lavender"
+backgroundColor="aliceblue"
+secondaryBackgroundColor="lightblue"
+primaryColor="steelblue"
 codeBackgroundColor="powderBlue"
